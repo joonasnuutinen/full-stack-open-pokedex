@@ -35,4 +35,4 @@ jobs:
           heroku_email: "joonas@autua.fi"
           healthcheck: "https://fs-pokedex.herokuapp.com/health"
           checkstring: "ok"
-        
+          rollbackonhealthcheckfailed: "true"
