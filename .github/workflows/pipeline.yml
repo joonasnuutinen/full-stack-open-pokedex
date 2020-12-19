@@ -33,6 +33,6 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fs-pokedex"
           heroku_email: "joonas@autua.fi"
-          healthcheck: "https://demo-rest-api.herokuapp.com/health"
+          healthcheck: "https://fs-pokedex.herokuapp.com/health"
           checkstring: "ok"
         
