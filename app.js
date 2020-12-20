@@ -9,7 +9,7 @@ app.get('/health', (req, res) => {
 })
 
 app.get('/version', (req, res) => {
-  res.send('auto-bump with #skip and protection');
+  res.send('auto-bump with #skip and protection')
 })
 
 app.use(express.static('dist'))
