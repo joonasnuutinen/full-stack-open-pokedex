@@ -9,7 +9,7 @@ app.get('/health', (req, res) => {
 })
 
 app.get('/version', (req, res) => {
-  res.send('15')
+  res.send('auto-bump')
 })
 
 app.use(express.static('dist'))
